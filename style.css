@@ -1,0 +1,360 @@
+/* CSS reset*/
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+#logo {
+  margin: 20px 34px;
+  width: auto;
+}
+
+#logo img {
+  margin: 66px 77px;
+  height: 70px;
+  padding-left: 10px;
+}
+
+#navbar {
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 0px;
+  height: 150px;
+}
+
+#navbar li {
+  display: inline-block;
+  font-size: 18px;
+}
+
+#navbar li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 15px;
+}
+
+#navbar li a:hover,
+.navbar li a.active {
+  text-decoration: underline;
+  color: grey;
+}
+
+.btn {
+  margin: 0px 9px;
+  color: white;
+  background-color: black;
+  padding: 4px 14px;
+  border: 2px solid rgb(41, 40, 40);
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 15px;
+  top: 10px;
+}
+
+/* Home Section*/
+#home {
+  display: flex;
+  flex-direction: column;
+  padding: 3px 200px;
+  justify-content: center;
+  align-items: center;
+  height: 450px;
+}
+
+#home::before {
+  content: "";
+  background: url("https://cdn.pixabay.com/photo/2017/01/09/11/30/dumbbell-1966247_1280.jpg")
+    no-repeat center center/cover;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 5px;
+  left: 0px;
+  z-index: -1;
+}
+
+#home h1 {
+  color: white;
+  text-align: center;
+  padding-bottom: 40px;
+  font-size: 40px;
+}
+
+.homephoto {
+  size: 100px;
+}
+
+/* About Section */
+#about {
+  position: relative;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  padding: 3px 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+#about::before {
+  content: "";
+  position: absolute;
+  background: url("https://cdn.pixabay.com/photo/2015/07/02/10/22/training-828732_1280.jpg")
+    no-repeat center center/cover;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.88;
+  height: 100%;
+}
+
+#about h1 {
+  font-size: 60px;
+  color: white;
+}
+
+#about p {
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+  padding-bottom: 25px;
+}
+
+#service {
+  position: relative;
+  height: 2700px;
+  display: flex;
+  flex-direction: column;
+  padding: 3px 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+#service {
+  margin: 14px;
+  display: flex;
+}
+
+#service .box {
+  border: 2px solid rgb(66, 65, 65);
+  padding: 54px;
+  margin: 3px 10px;
+  border-radius: 23px;
+  background-color: rgb(203, 201, 202);
+  height: 350px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  width: 380px;
+}
+
+#service .box p {
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+#service .box h2 {
+  padding: 20px;
+  text-align: center;
+}
+
+#service .box img {
+  height: 160px;
+  margin: auto;
+  display: block;
+}
+
+#service h1 {
+  font-size: 60px;
+}
+
+#contact {
+  position: relative;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  padding: 3px 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact::before {
+  content: "";
+  position: absolute;
+  background: linear-gradient(to top left, #050404, #d8dad8);
+  width: 100%;
+  z-index: -1;
+  opacity: 0.88;
+  height: 100%;
+}
+
+#contact h2 {
+  font-size: 60px;
+}
+
+#facility {
+  position: relative;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  padding: 3px 100px;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+#facility::before {
+  content: "";
+  position: absolute;
+  background: url("https://cdn.pixabay.com/photo/2014/04/24/17/56/fitness-studio-331569_1280.jpg")
+    no-repeat center center/cover;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.73;
+  height: 100%;
+}
+
+#facility h2 {
+  font-size: 40px;
+}
+
+.btn:hover {
+  background-color: gray;
+}
+
+.container {
+  margin: 106px 70px;
+  padding: 50px;
+  width: 35%;
+  border-radius: 15px;
+}
+
+footer {
+  background: black;
+  color: white;
+  padding: 9px 20px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-group input {
+  width: 100%;
+  border: 0;
+  outline: none;
+  background: #262626;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+}
+
+h1 {
+  color: black;
+}
+
+.btn {
+  padding: 14px 60px;
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.h-secondary center {
+  font-size: 2.5rem;
+  padding: 13px;
+}
+.social-icons {
+  margin-top: 30px;
+}
+.social-icons a {
+  text-decoration: none;
+  font-size: 30px;
+  margin-right: 15px;
+  color: #ababab;
+  display: inline-block;
+  transition: transform 0.5s;
+}
+
+.social-icons a:hover {
+  color: #8ac6ed;
+  transform: translateY(-5px);
+}
+.copyright {
+  width: 100%;
+  text-align: center;
+  padding: 25px 0;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+/* css for small screen */
+nav .fa-solid {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  #navbar li {
+    display: inline-block;
+    font-size: 10px;
+  }
+  #navbar li a {
+    padding: 10px;
+  }
+  #logo {
+    margin: 10px 14px;
+    width: auto;
+  }
+  #home {
+    padding: 3px 150px;
+    height: 450px;
+  }
+  #home h1 {
+    color: white;
+    padding-bottom: 30px;
+    font-size: 30px;
+  }
+  #about {
+    height: 650px;
+    padding: 3px 100px;
+  }
+  #about h1 {
+    font-size: 40px;
+  }
+
+  #service {
+    height: 2900px;
+    margin: 14px;
+    display: flex;
+  }
+  #service h1 {
+    font-size: 25px;
+    display: flex;
+  }
+  #service h2 {
+    font-size: 20px;
+  }
+
+  #service .box {
+    width: 350px;
+    height: 380px;
+  }
+  #facility h2 {
+    font-size: 25px;
+  }
+  #contact {
+    height: 650px;
+    padding: 3px 150px;
+  }
+  #contact h2 {
+    font-size: 35px;
+  }
+  #contact {
+    font-size: 12px;
+  }
+  .small {
+    font-size: 22px;
+  }
+}
